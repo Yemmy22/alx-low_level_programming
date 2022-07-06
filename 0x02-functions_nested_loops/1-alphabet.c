@@ -2,9 +2,9 @@
 
 
 /**
- * print_alphabet - prints lowercse alphabets
+ * print_alphabet - prints alphabets in lowercase format
  *
- * Return: Always (void)
+ * Return: None
  */
 
 void print_alphabet(void)
@@ -16,17 +16,5 @@ void print_alphabet(void)
 		_putchar(low_Case);
 		low_Case++;
 	}
-}
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-
-int main(void)
-{
-	print_alphabet();
 	_putchar('\n');
-
-	return (0);
 }

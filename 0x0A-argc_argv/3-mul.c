@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	int mul;
 	char *reterr = "Error\n";
 
-	if (argc < 2)
+	if (argc != 3)
 	{
 		printf("%s", reterr);
 		return (1);

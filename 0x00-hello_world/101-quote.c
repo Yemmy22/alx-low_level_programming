@@ -8,7 +8,7 @@
 int main(void)
 {
 	int len;
-	char Str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+	char Str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
 	len = strlen(Str);
 	write(1, Str, len);

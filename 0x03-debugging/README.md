@@ -1,1 +1,1 @@
-This project intoduce and test the knowledge of debuggiing
+This project introduce and test the knowledge of debugging

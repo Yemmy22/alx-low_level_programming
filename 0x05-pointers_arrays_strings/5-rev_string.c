@@ -2,7 +2,7 @@
 /**
  * rev_string -  Prints input string in reverse order
  * @s: Input string string
- * 
+ *
  * Return: nothing
  */
 void rev_string(char *s)
@@ -19,7 +19,7 @@ void rev_string(char *s)
 
 	j = len - 1;
 	i = 0;
-	
+
 	while (i < j)
 	{
 		temp = s[i];

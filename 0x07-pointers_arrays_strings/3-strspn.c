@@ -16,7 +16,8 @@ unsigned int _strspn(char *s, char *accept)
 	while (accept[i] != '\0')
 	{
 		j = 0;
-		while (s[j] != 44)
+		while ((s[j] != 44) &&
+		((s[j] >= 97 && s[j] <= 122) || (s[j] >= 48 && s[j] <= 89)))
 		{
 			if (*(s + j) == *(accept + i))
 				count++;

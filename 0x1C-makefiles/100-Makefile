@@ -1,6 +1,6 @@
 CC=gcc
 SRC=main.c school.c
-OBJ=$(CC) $(CFLAGS) $(SRC)
+OBJ=$(CC) $(SRC)
 NAME=school
 CFLAGS=-Wall -Werror -Wextra -pedantic
 

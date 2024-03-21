@@ -10,8 +10,6 @@ all: clean $(NAME)
 $(NAME): $(SRC) m.h
 	$(CC) -Wall -Werror -Wextra -pedantic $^ -o $@
 
-$(OBJ): m.h
-
 clean: 
 	@$(RM) *~ *.swp *.swo *.swn *.out *.exe $(NAME)
 
